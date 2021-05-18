@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: CCSwap is an innovative decentralized multi-chain AMM trading protocol.
-repository: https://github.com/Uniswap/uniswap-v2-subgraph
+repository: https://github.com/ccswap/ccswap-v1-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
