@@ -53,12 +53,18 @@ export function getEthPriceInUSD(): BigDecimal {
 
 // token where amounts should contribute to tracked volume and liquidity
 let WHITELIST: string[] = [
-  '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', // WETH
-  '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', // USDC
-  '0xdac17f958d2ee523a2206206994597c13d831ec7', // USDT
-  '0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074', // MASK
-  '0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F', // SNX
-  '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984' // UNI
+  '0x0677FB47b0AB26E3d4FB8805dAd986171640D0a2', // WETH
+  '0xe9e7cea3dedca5984780bafc599bd69add087d56', // BUSD
+  '0x55d398326f99059ff775485246999027b3197955', // USDT
+  '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', // WBNB
+  '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', // Cake
+  '0xc9849e6fdb743d08faee3e34dd2d1bc69ea11a51', // BUNNY
+  '0xb7fbff4ce5200215c690cc95855e5d6c5236ee9f', // CC
+  '0x8f0528ce5ef7b51152a59745befdd91d97091d2f', // ALPACA
+  '0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63', // XVS
+  '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', // ALPACA
+  '0x8f0528ce5ef7b51152a59745befdd91d97091d2f', // BTCB
+  '0x843D4a358471547f51534e3e51fae91cb4Dc3F28' // lowb
 ]
 // let WHITELIST: string[] = [
 //   '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', // WETH
