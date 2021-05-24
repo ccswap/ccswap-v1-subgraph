@@ -53,7 +53,7 @@ export function getEthPriceInUSD(): BigDecimal {
 
 // token where amounts should contribute to tracked volume and liquidity
 let WHITELIST: string[] = [
-  '0x0677FB47b0AB26E3d4FB8805dAd986171640D0a2', // WETH
+  '0x0677fb47b0ab26e3d4fb8805dad986171640d0a2', // WETH 
   '0xe9e7cea3dedca5984780bafc599bd69add087d56', // BUSD
   '0x55d398326f99059ff775485246999027b3197955', // USDT
   '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', // WBNB
@@ -62,9 +62,9 @@ let WHITELIST: string[] = [
   '0xb7fbff4ce5200215c690cc95855e5d6c5236ee9f', // CC
   '0x8f0528ce5ef7b51152a59745befdd91d97091d2f', // ALPACA
   '0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63', // XVS
-  '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', // ALPACA
+  '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c', // ALPACA
   '0x8f0528ce5ef7b51152a59745befdd91d97091d2f', // BTCB
-  '0x843D4a358471547f51534e3e51fae91cb4Dc3F28' // lowb
+  '0x843d4a358471547f51534e3e51fae91cb4dc3f28' // lowb
 ]
 // let WHITELIST: string[] = [
 //   '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', // WETH
